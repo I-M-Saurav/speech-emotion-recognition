@@ -18,7 +18,11 @@ emotion_map = {
     "07": "disgust",
     "08": "surprised"
 }
-# update
+# ======================================================
+# Speech Emotion Recognition – Step 3 Script
+# Description: Extract MFCC, Delta, and Spectral features
+# ======================================================
+
 """
 This script extracts MFCC, delta, and spectral features from RAVDESS audio files
 and saves them to a CSV file for emotion classification.

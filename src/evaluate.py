@@ -5,6 +5,13 @@ import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.model_selection import train_test_split
 
+
+# ======================================================
+# Speech Emotion Recognition – Step 5 Script
+# Description: <Brief explanation of what this file does>
+# ======================================================
+
+
 # Load data and model
 df = pd.read_csv("features/audio_features.csv")
 model = joblib.load("models/rf_emotion_model.pkl")

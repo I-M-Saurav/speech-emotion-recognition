@@ -4,6 +4,13 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import joblib
 import os
+
+# ======================================================
+# Speech Emotion Recognition – Step 4 Script
+# Description: <Brief explanation of what this file does>
+# ======================================================
+
+
 # Step 2: Created project folders and organized code scripts
 
 # Load extracted features
