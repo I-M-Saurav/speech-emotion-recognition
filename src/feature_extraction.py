@@ -19,6 +19,11 @@ emotion_map = {
     "08": "surprised"
 }
 # update
+"""
+This script extracts MFCC, delta, and spectral features from RAVDESS audio files
+and saves them to a CSV file for emotion classification.
+"""
+
 # Function to extract features from a single file
 def extract_features(file_path):
     y, sr = librosa.load(file_path, duration=3, offset=0.5)
